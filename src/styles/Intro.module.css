@@ -1,0 +1,37 @@
+.sectionOne {
+  background-color: #761515;
+  margin-bottom: 5%;
+}
+
+.greetOne,
+.greetTwo {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: monospace;
+  transform-origin: center center;
+  animation: scaleUp 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  margin-top: 0%;
+}
+
+.greetOne {
+  font-size: 60px;
+  padding: 25px;
+}
+
+.greetTwo {
+  font-size: 30px;
+  padding: 30px;
+}
+
+@keyframes scaleUp {
+  0% {
+    opacity: 0;
+    transform: scale(7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
