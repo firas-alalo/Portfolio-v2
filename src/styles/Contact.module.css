@@ -1,0 +1,12 @@
+.text {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 25px;
+  margin-bottom: 10%;
+}
+
+.sectionFour {
+  display: flex;
+  margin-bottom: 10%;
+}
