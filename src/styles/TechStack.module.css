@@ -1,0 +1,67 @@
+.StackImage,
+.SecStackImage {
+  width: 100px;
+  height: 1%;
+  margin: 3%;
+  transition: transform 0.3s ease;
+}
+
+.StackImage:hover,
+.SecStackImage:hover {
+  transform: scale(1.4);
+}
+
+.sectionThree {
+  margin-top: 5%;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 25px;
+  margin: 3%;
+}
+
+.textTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 25px;
+  margin: 3%;
+}
+
+.textThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 25px;
+  margin: 5%;
+}
+
+.techGrid {
+  align-items: center;
+  justify-content: center;
+}
+
+.StackImage {
+  width: 100px;
+  height: 1%;
+  margin: 3%;
+}
+
+.SecStackImage {
+  width: 100px;
+  height: 1%;
+  margin: 3%;
+}
+
+.projectsButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
