@@ -1,0 +1,36 @@
+.meImage {
+  border-radius: 50%;
+  max-width: 60%;
+  height: 80%;
+  min-width: 200px;
+}
+
+.constImage {
+  max-width: 90%; /* Limit the image width to the container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.images {
+  display: flex;
+  flex-direction: row; /* Default direction for larger screens */
+  justify-content: center; /* Center images horizontally */
+  align-items: flex-start; /* Align images to the top */
+
+  @media (max-width: 600px) {
+    flex-direction: column; /* Change to column direction for screens up to 600px width */
+    align-items: center; /* Center images vertically for mobile */
+  }
+}
+
+.codeDisplay {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: monospace;
+  text-align: left;
+}
+
+.codeDisplay {
+  height: 50%; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  white-space: pre-wrap; /* Preserve white space */
+}
