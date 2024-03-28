@@ -13,12 +13,16 @@ import { Button, ButtonGroup } from "@mui/material";
 const NavBar = () => {
   function scrollToProjects() {
     var contactSection = document.getElementById("projects-section");
-    contactSection?.scrollIntoView({ behavior: "smooth" });
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
   }
 
   function scrollToContact() {
     var contactSection = document.getElementById("contact-section");
-    contactSection?.scrollIntoView({ behavior: "smooth" });
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
   }
 
   return (
